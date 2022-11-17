@@ -130,7 +130,7 @@ width: 289px;
     
 }
 #social_drop:hover .h_a{
-    display:initial;
+    display:block;
    margin-left: -41px;
    
 
