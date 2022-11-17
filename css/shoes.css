@@ -1,0 +1,59 @@
+body{
+    margin: 0 0 0 0;
+}
+.Fgrid{
+
+    display: grid;
+    grid-template-rows: 183px 821px ;
+    grid-template-columns:1fr 1fr;
+    
+}
+#div1{
+    background-image: url(../../images/Men/b.jpg);
+    text-align: left;
+    size: 100%;
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-top: 0;
+}
+#div2{
+    padding-top: 520px;
+    font-size: 100px;
+    text-align: center;
+    size: 100%;
+background-image: url(../images/shoes/men.jpg);
+background-size: 100%;
+background-position-y: -170px;
+text-decoration: none;
+}
+#div3{
+    padding-top: 520px;
+    font-size: 100px;
+    text-align: center;
+    size: 100%;
+background-image: url(../images/shoes/women.jpg);
+background-size: 100%;
+background-position-y: -190px;
+text-decoration: none;
+}
+.logo{
+    height: 100%;
+    width:90px ;
+    font-size: 150px ;
+   padding-left: 20px;
+   padding-top: 5px;
+   font-family: fantasy;
+}
+.grid{
+    border: 1px solid black;
+}
+.grid a{
+    font-family: fantasy;
+   text-decoration: none;
+   color: black;
+}
+.grid:hover{
+    filter: grayscale(0.7);
+    
+}

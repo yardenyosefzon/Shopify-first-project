@@ -1,0 +1,209 @@
+body{
+    margin: 0 0 0 0;
+}
+.mgrid_container{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px 750px 400px 500px 400px;  
+    width: 100%;
+}
+#div1{
+    
+        display: flex;
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+    grid-column-start: 1;
+    grid-column-end:7 ;
+}
+#div2{
+    grid-column-start: 1;
+    grid-column-end:7 ;
+    background-image: url(../images/Men/men.jpg);
+    text-align: center;
+    font-size: 350px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    padding-top: 100px;
+    
+}
+#div3{
+    grid-column-start: 1;
+ grid-column-end:7 ;
+background-image: url(../images/Men/jeans);
+background-repeat: no-repeat;
+background-size: 100%;
+ ;
+}
+#div4{
+    grid-column-start:1;
+    grid-column-end:4 ;
+background-image: url(../images/Men/shirts.jpg) ;
+background-color: black;
+background-size:100% ;
+background-repeat: no-repeat;
+
+
+
+}
+#div5{
+    grid-column-start:4 ;
+    grid-column-end:7 ;
+background-image: url(../images/Men/t-shirts.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+
+}
+#div6{
+
+    grid-column-start:1 ;
+    grid-column-end: 3;
+background-image: url(../images/Men/jacket.jpg);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+#div7{
+    background-image: url(../images/Men/accecories);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+grid-column-start:3 ;
+grid-column-end:5 ;
+}
+#div8{
+    background-image: url(../images/Men/shoes);
+background-repeat: no-repeat;
+background-size: 100%;
+grid-column-start:5 ;
+grid-column-end:7 ;
+}
+.menu_bar a{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.h_a{
+    display: none;
+    background-color: black;
+position:absolute;  
+text-align: left;  
+border-width: 100%;
+}
+.h_a a{
+    text-decoration: none;
+    font-size: 30px;
+    text-align: left;
+}
+#social_drop:hover .h_a{
+    display:block;
+    width: 335.74px;
+    margin-top: -10px;
+    margin-left: -41px;
+    
+    
+}
+.menu_bar{
+    padding-top: 15px;
+    width: 20%;
+    text-align:center;
+    padding-left: 40px;
+    font-size: 30px;
+    border-left: 2px solid;
+}
+#hb2{
+    border: 0;
+    background-color: black;
+    font-size:30px ;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+#mhc1 {
+    border: 2px solid rgb(0, 0, 0);
+}
+#mhc2{
+    border: 2px solid rgb(0, 0, 0);
+}
+#mhc3{
+    border: 2px solid rgb(0, 0, 0);
+}
+.mgrid{
+    border: 0.01px solid black;
+}
+#div3 a{
+   
+    
+
+}
+.a3{
+    margin-top: 50px;
+    font-size: 250px;
+    margin-left: 500px;
+ 
+}
+.a4{
+    margin-top: 50px;
+    font-size: 200px;
+    margin-left: 50px;
+}
+.a5{
+    margin-top: 100px;
+    font-size: 150px;
+    margin-left: 50px;
+    text-align: center;
+}
+.a6{
+    margin-top:500px;
+    font-size: 100px;
+    margin-left:50px;
+    text-align: center;
+}
+.a7{
+    margin-top: 17px;
+    font-size: 85px;
+    margin-left: 0px;
+    text-align: center;
+    
+}
+.a8{
+    margin-top: 9px;
+    font-size: 100px;
+    margin-left: 50px;
+    text-align: center;
+}
+#div3:hover{
+    filter: grayscale(0.7);
+}
+.a3:hover a{
+    color:  rgb(204, 6, 6);
+}
+#div4:hover{
+    filter: grayscale(0.7);
+}
+.a4:hover a{
+    color: rgb(204, 6, 6);
+}
+#div5:hover{
+    filter: grayscale(0.7);
+}
+.a5:hover a{
+    color: rgb(204, 6, 6);
+}
+#div6:hover{
+    filter: grayscale(0.7);
+}
+.a6:hover a{
+    color: rgb(204, 6, 6);
+}
+#div7:hover{
+    filter: grayscale(0.7);
+}
+.a7:hover a{
+    color: rgb(204, 6, 6);
+}
+#div8:hover{
+    filter: grayscale(0.7);
+}
+.a8:hover a{
+    color: rgb(204, 6, 6);
+}
+.mgrid a{
+    color: rgb(103, 21, 21);
+}

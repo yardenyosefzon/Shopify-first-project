@@ -1,0 +1,64 @@
+body{
+    margin: 0 0 0 0;
+}
+.Fgrid{
+
+    display: grid;
+    grid-template-rows: 183px 638px ;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+}
+#div1{
+    background-image: url(../../images/Men/b.jpg);
+    text-align: left;
+    size: 100%;
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    border-top: 0;
+}
+#div2{
+    padding-top: 520px;
+    font-size: 100px;
+    text-align: center;
+    size: 100%;
+background-image: url(../../images/Men/accecoriesF/tie.jpg);
+}
+#div3{
+    padding-top: 520px;
+    font-size: 100px;
+    text-align: center;
+    size: 100%;
+background-image: url(../../images/Men/accecoriesF/shleakes.jpg);
+}
+#div4{
+    padding-top: 520px;
+    font-size: 100px;
+    text-align: center;
+    size:100%;
+   background-image: url(../../images/Men/accecoriesF/zippo.jpg);
+    
+}
+#div5{
+    padding-top: 520px;
+    font-size: 100px;
+    text-align: center;
+    size:100% ;
+    background-image: url(../../images/Men/accecoriesF/glasses);
+    
+}
+.logo{
+    height: 100%;
+    width:90px ;
+    font-size: 150px ;
+   padding-left: 20px;
+   padding-top: 5px;
+   font-family: fantasy;
+}
+.grid{
+    border: 1px solid black;
+}
+.grid a{
+    font-family: fantasy;
+   text-decoration: none;
+   color: black;
+}

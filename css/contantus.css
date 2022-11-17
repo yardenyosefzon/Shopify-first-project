@@ -1,0 +1,167 @@
+body{
+    margin: 0 0 0 0;
+}
+.Main{
+
+    display: grid;
+    grid-template-rows:200px 35px 100px 100px 100px 100px 100px 200px 458px ; 
+    grid-template-columns:80% 20% ;
+    size: 100%;
+}
+.mgrid{
+    font-size: 30px;
+    padding-top: 100px;
+    background-color: rgb(216, 173, 138);
+}
+#div1{
+background-image: url(../images/Men/b.jpg);
+    grid-column-start:1 ;
+    grid-column-end: 3;
+    font-size:36px;
+    background-repeat: none;
+    size: 100%;
+    padding-top: 0;
+    padding-bottom: 200px;
+    margin-top: 0;
+    font-family:sans-serif;
+
+
+}
+#div2{
+    background-color: rgb(220, 169, 16); 
+    display: flex;
+    width: 100%;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding-top: 0;
+}
+#div3{
+background-image: url(../images/Contact_us/3\ background\ 1.jpg);
+grid-row-start:2 ;
+grid-row-end:10 ;
+padding-top: 0;
+filter: brightness(1.0565);
+size: 100%;
+
+
+}
+#div4{ 
+  padding-left: 15px; 
+   
+}
+#div5{
+
+    padding-left: 15px; 
+
+}
+#div6{
+
+    padding-left: 15px; 
+
+}
+#div7{
+    
+    padding-left: 15px; 
+    padding-top: 100px;
+
+}
+#div8{
+
+    padding-left: 15px; 
+
+}
+#div9{
+
+    padding-left: 15px; 
+
+}
+#div10{
+display: flex;
+padding-left: 15px; 
+padding-bottom: 30px;
+
+}
+
+
+.menu_bar{
+    padding-top:0px ;
+    width: 20%;
+    text-align:center;
+    font-size: 25px;
+    border: 1px solid;
+    
+    
+}
+.menu_bar a{
+    text-decoration: none;
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+
+.h_a{
+    display: none;
+    background-color: rgb(220, 169, 16);
+position:absolute;  
+text-align: left;  
+width:269px;
+
+
+}
+.h_a a{
+    text-decoration: none;
+    font-size: 25px;
+    text-align: left;
+   
+}
+#social_drop:hover .h_a{
+    display:block;
+  margin-left: -2px;
+  margin-top: 2px;
+  
+
+}
+#hb2{
+    border:0;
+    background-color: rgb(220, 169, 16);
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+#mhc1 {
+    border: 2px solid rgb(0, 0, 0);
+    border-left: 3px solid;
+  
+}
+#mhc2{
+    border: 2px solid rgb(0, 0, 0);
+    border-left: 3px solid;
+}
+#mhc3{
+    border: 2px solid rgb(0, 0, 0);
+    border-left: 3px solid;
+}
+
+.mgrid input{
+    height: 25px;
+    width: 250px;
+    
+    
+}
+#div7 label{
+    float: left;
+}
+#divf1{
+    width: 30%;
+
+}
+#divf2{
+    width: 70%;
+
+}
+.Fgender{
+display: flex;
+}
+#div10 input{
+height: 50px;
+}
